@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challange</title>
+    <style>
+      * {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  margin-left: 20%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+#John {
+  color: blue;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#hide {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+section button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#second {
+  background-color: rgba(107, 122, 135, 0.295);
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+  gap: 20px;
+}
+section h2 {
+  margin-bottom: 20px;
+}
+p {
+  opacity: 50%;
+}
+
+h1 {
+  line-height: 50px;
+}
+p {
+  line-height: 25px;
+}
+hr {
+  opacity: 25%;
+  margin-top: 10px;
+}
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 id="John">John Doe.</h2>
+      <nav>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Projects</a></div>
+        <div><a href="#">Skills</a></div>
+        <div><a href="#">Contact</a></div>
+      </nav>
+      <button id="hide">Hire Me</button>
+    </header>
+    <hr />
+    <main>
+      <section class="banner"  >
+        <div>
+          <h1>
+            Hi,I'm <span id="John">John Doe</span><br />Full Stack Developer
+          </h1>
+          <p>
+            I create beautiful,functional web applications with modern <br />
+            technologies. Spaceiallized in React, Node.Js and responce
+            <br />design.
+          </p>
+          <button id="first">View My Work</button>
+          <button id="second">Get in Touch</button>
+        </div>
+        <div>
+          <figure>
+            <img
+              src="https://landkit.goodthemes.co/assets/img/illustrations/illustration-2.png"
+              alt=""
+              height="300"
+              width="400"
+            />
+          </figure>
+        </div>
+      </section>
+      <section class="grid">
+        <div class="card">
+          <p></p>
+          <h2>Web Develpoment</h2>
+          <p>
+            Landkit is built to make your life easier. <br />
+            Variables, build tooling, documentation, <br />
+            and reusable components.
+          </p>
+        </div>
+        <div class="card">
+          <p></p>
+          <h2>UI/UX</h2>
+          <p>
+            Designed with the latest design trends in mind. 
+            Landkit feels modern, minimal, <br />
+            and beautiful.
+          </p>
+        </div>
+        <div class="card">
+          <p></p>
+          <h2>Backend Development</h2>
+          <p>
+            We've written extensive documentation <br />
+            for components and tools, so you never <br />
+            have to reverse engineer anything.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
