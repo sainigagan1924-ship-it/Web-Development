@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(240, 242, 241);
+            margin: 0;
+        }
+        header{
+            position:fixed;
+            width: 100%;
+            margin-top:-100px;
+        }
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content:space-around;
+        }
+        .nav1 {
+         display: flex;
+        }
+        nav h1 {
+            margin-right: 10px;
+            background-color: green;
+            margin-top: 20px;
+            border-radius: 100%;
+            padding: 10px;
+            color: white;
+        }
+        .nav3 {
+            margin-top: 35px;
+        }
+        .nav3 a{
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+        } 
+        .nav4 {
+            display: flex;
+            margin-top: 35px;
+            gap: 20px;
+        } 
+        .nav4 a {
+            text-decoration: none;
+            color: black;
+        }
+        main{
+            margin-top: 100px;
+        }
+        .sign-in a {
+         color: white;
+         background-color: green;
+         padding: 10px;
+         border-radius: 20px;
+         font-weight: bold;
+        }
+        .news {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5px;
+            width: 60%;
+            margin-left: 300px;
+            height: 400px;
+            padding: 20px;
+        }
+        .top{
+         color: green;
+        }
+        .news-tittle a {
+         text-decoration: none;
+         color: black;
+        }
+        .new-more {
+            margin-top: 100px;
+        }
+        .green {
+         background-color: green;
+         border-radius: 20px;
+         font-weight: bold;
+         padding: 10px;
+         margin-right: 20px;
+        }
+        .background {
+            background-image: url(Images/137-101216.webp);
+            background-size: cover;
+            width: 400px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        .menu {
+            margin-top: 200px;
+            margin-left: 20px;
+            margin-right: 20px;
+        
+        }
+        .menu p {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .join-now {
+            background-color: green;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            border-radius: 10px;
+            margin-right: 25%;
+        }
+        .join-now p {
+            margin-left: 10px;
+            font-weight: bold;
+            color: white;
+        }
+        .join-now a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .join {
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 100px;
+            gap:20px;
+        }
+        .card {
+            height: 100px;
+            width: 300px;
+            margin-left: 20px;
+        }
+        .cards-info {
+            height: 400px;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .cards-info img {
+            width: 400px;
+            border-radius: 20px 20px 0px 0px;
+        }
+        .starbucks-footer {
+        background-color: #131921;
+        color: white;
+        padding: 30px;
+        }
+      .footer-top {
+        display: flex;
+        justify-content: space-around;
+      }
+      .footer-top a {
+        text-decoration: none;
+        display: flex;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+       <header>
+        <nav>
+        <div class="nav1">
+            <h1>SB</h1>
+        <div class="nav2">
+            <h3>Starbucks</h3>
+           <p>Coffees & Tea</p>
+        </div>
+        </div>
+        <div class="nav3">
+            <span><a href="#">Menu</a></span>
+            <span><a href="#">Gift Cards</a></span>
+            <span><a href="#">Find a Store</a></span>
+            <span><a href="#">Recycling</a></span>
+        </div>
+        <div class="nav4">
+            <a href="#">Suscribe</a>
+            <div class="sign-in">
+            <a href="#">Sign in</a>
+            </div>
+        </div>
+        </nav>
+       </header> 
+        <main>
+            <div class="news">
+                <div class="news-tittle">
+                    <p class="top">NEW</p>
+                <h1 style="font-family: 'align-self: start;">Celebrate the season with <br> handerafted favoritrs</h1>
+                <p>Warm up with limited-time flavors crafted with cazy <br> spices,sweet syrups and velverty steamed milk. <br> Availble in store and on the app.</p>
+                <div class="new-more">
+                    <a href="#" class="green">Order now</a>
+                    <a href="#">Explore Menu</a>
+                </div>
+                </div>
+                <div class="background">
+                    <div class="menu">
+                 <p> Coffees & Tea</p>
+                 <hr>
+                 <p>Coffee Latte</p>
+                 <p>Hot Tea</p>
+                 </div>
+                </div>
+            </div>
+            <div class="join-now">
+                <div>
+                    <p>Join Starbucks Rewards--earn Stars,get member offers and free Coffee</p>
+                </div>
+                <div class="join">
+                    <a href="#">Join now ➡</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-info">
+                <img src="Images/images.jpeg" alt="">
+                <div class="card">
+                    <h3>Featured Drinks</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+                <div class="cards-info">
+                <img src="Images/download.jpeg" alt="">
+                <div class="card">
+                    <h3>Real Taste</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+                <div class="cards-info">
+                <img src="Images/download (3).jpeg" alt="">
+                <div class="card">
+                    <h3>See Gifts</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+                <div class="cards-info">
+                <img src="Images/images.jpeg" alt="">
+                <div class="card">
+                    <h3>Flavourful</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+                <div class="cards-info">
+                <img src="Images/download.jpeg" alt="">
+                <div class="card">
+                    <h3>Top in menu</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+                <div class="cards-info">
+                <img src="Images/download (3).jpeg" alt="">
+                <div class="card">
+                    <h3>Future Drinks</h3>
+                    <p>Our new protein beverages tap into the growing consumer demand for protein in an innovative, premium, and delicious.</p>
+                </div>
+                </div>
+            </div>
+        </main> 
+        <footer class="starbucks-footer">
+      <div class="footer-top">
+        <div class="footer-column">
+          <h4>Get to Know Us</h4>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Press Releases</a>
+          <a href="#">Starbucks Cares</a>
+        </div>
+        <div class="footer-column">
+          <h4>Connect with Us</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+        <div class="footer-column">
+          <h4>Let Us Help You</h4>
+          <a href="#">Your Account</a>
+          <a href="#">Help</a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
