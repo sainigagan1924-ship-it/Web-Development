@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services Section</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 250px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .card button {
+            padding: 8px 15px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center;">Our Services</h1>
+
+    <div class="services">
+        <div class="card">
+            <h2>Web Design</h2>
+            <p>We create beautiful and responsive website designs.</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <h2>Development</h2>
+            <p>We build fast, secure, and scalable web applications.</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <h2>SEO Optimization</h2>
+            <p>We help your website rank higher on search engines.</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+
+</body>
+</html>
